@@ -1,5 +1,8 @@
+body{
+    font-family: "Titillium Web";
+}
 .navbar{
-    background-color: #09583c;
+    background-color: #085151;
 }
 #logo{
     width:70px;
@@ -39,11 +42,13 @@
 .heading{
     text-align: center;
     margin: auto;
-    margin: 3%;
+    margin: 5%;
+    font-weight: 500;
+    color: #085151;
 }
 .heading:hover{
     color: #f15e29;
-    font-weight: 600;
+    font-weight: 500;
 
 }
 
@@ -52,6 +57,16 @@
 }
 .text{
     margin-top: 8px;
+}
+.colorText{
+    font-family: "Satisfy";
+    font-weight: 500;
+    font-size: 36px;
+    color: #f15e29;
+    margin-bottom: 4%;
+}
+.colorText:hover{
+    color: #23a0a0;
 }
 
 .about .btn{
@@ -62,15 +77,18 @@
 
 .about .btn:hover{
     color:#f9f9f9;
-    background-color: #f2835b;
+    background-color: teal;
     font-weight: 500;
     margin-bottom: 10px;
 }
 .order .row{
     margin-bottom: 2.5%;
 }
+
+
 .card{
     overflow: hidden;
+    margin-bottom: 20px;
 }
 .card-img-top{
     
@@ -97,6 +115,10 @@
     border-radius: 0;
 }
 .orderBtn:hover{
-    background-color: #f15e29;
+    background-color: teal;
     color: #fff;
+}
+.price{
+    color:#f15e29;
+    font-weight: 600;
 }
