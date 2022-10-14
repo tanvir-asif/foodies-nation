@@ -24,7 +24,7 @@ body{
 }
 .navBtn:hover{
     color:#fff;
-    border-bottom: 4px solid #732002;
+    border-bottom: 4px solid #F27405;
     transition: .6s;
 }
 .carousel{
